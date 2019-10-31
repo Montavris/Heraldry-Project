@@ -21,10 +21,21 @@ public class Heraldry {
 	}
 
 	public String FindShield() {
-
+		String Shield[][] = {{"Silver",""},{"Gold",""},{"Black",""},{"Green",""},{"Blue",""},{"Red",""},{"Purple",""},{"Maroon",""},{"Orange",""}};
 		return "";
 	}
-
+	/*
+	 * Silver;
+	 * Gold
+	 * Black
+	 * Green
+	 * Blue
+	 * Red
+	 * Purple
+	 * Maroon
+	 * Orange
+	 */
+	
 	public String FindTinctures() {
 
 		return "";
