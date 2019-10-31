@@ -7,7 +7,16 @@ public class Heraldry {
 	}
 
 	public String CalculateHeraldry() {
-
+		Scanner s = new Scanner(System.in);
+		String inputs[] = {"","",""};
+		
+		for (int i =0;i<3;i++) {
+			inputs[i]=s.nextLine().toUpperCase();
+		}
+		
+		for (int i = 0;i<3;i++) {
+			System.out.println(inputs[i]);
+		}
 		return "";
 	}
 
